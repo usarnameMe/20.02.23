@@ -1,0 +1,37 @@
+body {
+  background-color: #c9ada7;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  background-color: #4a4e69;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  margin: 0 1rem;
+}
+
+.link {
+  color: #c9ada7;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: #a98467;
+  transform: scale(1.1);
+}

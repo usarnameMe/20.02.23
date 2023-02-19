@@ -1,0 +1,97 @@
+body {
+  background-color: #c9ada7;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  background-color: #4a4e69;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navLink {
+  margin: 0 1rem;
+}
+
+.link {
+  color: #c9ada7;
+  font-size: 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link:hover {
+  color: #a98467;
+  transform: scale(1.1);
+}
+
+.messageBbox {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #eee;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.messageInputContainer {
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.messageInputContainer label {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.messageInputContainer input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+}
+
+#btn {
+  padding: 10px 20px;
+  background-color: #4a4e69;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #a98467;
+}
+
+#lastMessages {
+  margin-top: 30px;
+  color: #666;
+  font-size: 1.2rem;
+}
