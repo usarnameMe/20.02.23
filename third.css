@@ -35,3 +35,42 @@ body {
   color: #a98467;
   transform: scale(1.1);
 }
+
+.container {
+  color: #6d4343;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 800px;
+  margin: 10rem auto;
+  background-color: #f6eee7;
+  border: 2px solid #6d4343;
+  border-radius: 15px;
+  padding: 2rem;
+}
+
+#value {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: #a98467;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #4a4e69;
+}
