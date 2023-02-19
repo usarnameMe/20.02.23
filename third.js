@@ -7,6 +7,8 @@ function changeColor() {
     value.style.color = "green";
   } else if (value.innerHTML < 0) {
     value.style.color = "red";
+  } else {
+    value.style.color = "white";
   }
 }
 
